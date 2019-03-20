@@ -10,3 +10,6 @@ int WhileLoop();
 int WhilePrintf();
 int ForLoop();
 int CreateArray();
+int DynamicArray();
+int TwoDimensionalArray();
+int StringArray();
