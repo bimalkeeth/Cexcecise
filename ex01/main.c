@@ -7,6 +7,7 @@ int main() {
     WhileLoop();
     WhilePrintf();
     ForLoop();
+    CreateArray();
     return 0;
 }
  int WhileLoop(){
@@ -36,7 +37,25 @@ int ForLoop(){
 
         k=rand()%10000;
         printf("Hello world %d\n",k);
-
     }
+    return 0;
+}
+int CreateArray(){
+      int i=0;
+
+
+      int x[100];
+      x[0]=10;
+      x[99]=2;
+      printf("First element of the array %d\n",x[0]);
+
+      for(i=0;i<100;i++){
+          x[i]=i+1;
+      }
+
+    for(i=0;i<100;i++){
+        printf("Array element %d\n",x[i]);
+    }
+
     return 0;
 }

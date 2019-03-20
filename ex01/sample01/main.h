@@ -9,3 +9,4 @@
 int WhileLoop();
 int WhilePrintf();
 int ForLoop();
+int CreateArray();
