@@ -106,5 +106,11 @@ int StringArray(){
 
     printf("%s",str2);
 
+    char str3[80];
+    printf("Enter the name: ");
+    scanf("%[^\n]",str3);
+
+    printf("Welcome to : %s\n ",str3);
+
     return 0;
 }
