@@ -90,7 +90,6 @@ void DynamicAllocation(){
     }
     free(p);
 }
-
 int ** Dynamic2DArray(int nRows,int nCols){
     int **p;
 
@@ -104,7 +103,6 @@ int ** Dynamic2DArray(int nRows,int nCols){
     }
    return p;
 }
-
 void inputValues(int **p,int nRows,int nCols){
     int i,j;
     for(i=0;i<nRows;i++){
@@ -114,7 +112,6 @@ void inputValues(int **p,int nRows,int nCols){
         }
     }
 }
-
 void PrintValues(int **p,int nRows,int nCols){
     int i,j;
     for(i=0;i<nRows;i++){
@@ -123,4 +120,12 @@ void PrintValues(int **p,int nRows,int nCols){
         }
         printf("\n");
     }
+    FreeMemoryAllocation(p,nRows);
+}
+void FreeMemoryAllocation(int **p,int nRows){
+    int i,j;
+    for(i=0;i<nRows;i++){
+        free(p+i);
+    }
+    free(p);
 }

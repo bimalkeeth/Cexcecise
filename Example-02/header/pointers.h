@@ -14,4 +14,5 @@ void DynamicAllocation();
 int ** Dynamic2DArray(int nRows,int nCols);
 void inputValues(int **p,int nRows,int nCols);
 void PrintValues(int **p,int nRows,int nCols);
+void FreeMemoryAllocation(int **p,int nRows);
 #endif //EXAMPLE_02_POINTERS_H
