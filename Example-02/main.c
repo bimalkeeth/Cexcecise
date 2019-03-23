@@ -6,17 +6,23 @@
 
 int main() {
 
-    int nRows,nCols;
-    int **p;
-    printf("Enter number of rows: ");
-    scanf("%d",&nRows);
 
-    printf("Enter number of columns: ");
-    scanf("%d",&nCols);
 
-    p=Dynamic2DArray(nRows,nCols);
-    inputValues(p,nRows,nCols);
-    PrintValues(p,nRows,nCols);
+
+
+
+
+//    int nRows,nCols;
+//    int **p;
+//    printf("Enter number of rows: ");
+//    scanf("%d",&nRows);
+//
+//    printf("Enter number of columns: ");
+//    scanf("%d",&nCols);
+//
+//    p=Dynamic2DArray(nRows,nCols);
+//    inputValues(p,nRows,nCols);
+//    PrintValues(p,nRows,nCols);
     //DynamicAllocation();
 
 

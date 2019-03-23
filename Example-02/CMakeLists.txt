@@ -8,4 +8,4 @@ set(SOURCE "source")
 include_directories(${HEADERS})
 include_directories(${SOURCE})
 
-add_executable(Example_02 main.c header/example-02.h source/example-02.c header/functions-01.h source/functions-01.c header/game.h source/game.c header/recursion.h source/recursion.c header/storageclass.h source/storageclass.c header/pointers.h source/pointers.c)
+add_executable(Example_02 main.c header/example-02.h source/example-02.c header/functions-01.h source/functions-01.c header/game.h source/game.c header/recursion.h source/recursion.c header/storageclass.h source/storageclass.c header/pointers.h source/pointers.c header/structures.h source/structures.c)
