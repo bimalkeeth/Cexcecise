@@ -1,0 +1,8 @@
+//
+// Created by bill on 23/03/19.
+//
+
+#ifndef EXAMPLE_02_STORAGECLASS_H
+#define EXAMPLE_02_STORAGECLASS_H
+
+#endif //EXAMPLE_02_STORAGECLASS_H
